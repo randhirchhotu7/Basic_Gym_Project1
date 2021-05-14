@@ -1,0 +1,101 @@
+body
+{
+    /*css Reset */
+    font-family: 'Baloo Bhai 2', cursive;
+    color:  white;
+    margin: 0px;
+    padding:  0px;
+    background: url('img102.jpg');
+    /* background: url('Gym_WebSite\img\img102.jpg'); */
+    
+}
+.left{
+    position:  absolute;
+    left: 37px;
+    top: 27px;
+    /* padding: 3px 3px; */
+    /* border: 2px solid red; */
+    display: inline-block;
+}
+.left img{
+    width: 31px;
+    filter: invert(100%);
+}
+.left div:hover{
+      color: rgb(132, 136, 138);
+      cursor: pointer;
+}
+.mid{
+    
+    display: block;
+    width: 50%;
+    margin: 27px auto; /* display,width,margin -> these three line use to alline mid in center */
+    /* border: 2px solid green; */
+    /* font-size: 200%; */
+}
+.right{
+    position:  absolute;
+    right: 37px;
+    top: 27px;
+    /* border: 2px solid blueviolet; */
+    display: inline-block;
+}
+.navigationBar{
+    display:  inline-block;
+}
+
+.navigationBar li{  
+    display: inline-block;  /*To bring li in same line*/
+    font-size: 17px;
+}
+.navigationBar li a{
+    color: white;
+    text-decoration: none;  /*to remove href line and convert text in simple word */
+    padding: 27px 9px;
+}
+.navigationBar li a:hover{
+    text-decoration: underline;
+    color: rgb(141, 135, 135);
+
+}
+.btun{
+    margin: 0px 7px;
+    background-color: black;
+    color: white;
+    padding: 5px 17px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer; /* to get hand hover texture*/
+}
+.btun:hover{
+    color: rgb(122, 115, 115);
+}
+.container{
+    border: 2px solid white;
+    margin: 77px 30px;
+    padding: 70px;
+    width: 33%;
+    border-radius: 27px;
+
+}
+.form-group input{
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: center;
+    display: block;
+    width: 407px;
+    padding: 1px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 10px auto ;
+    font-size: 17px;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 34%;
+    margin: 20px auto;
+
+}
